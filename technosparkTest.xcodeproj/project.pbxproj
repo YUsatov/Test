@@ -7,20 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F14251AF98D04F5E5F0EA0FB /* Pods_technosparkTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59F1113171616BFCEB3373C3 /* Pods_technosparkTest.framework */; };
+		FD3AF0242B8A09B200A196D6 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3AF0232B8A09B200A196D6 /* Presenter.swift */; };
+		FD3AF0262B8A09C700A196D6 /* CSVService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3AF0252B8A09C700A196D6 /* CSVService.swift */; };
 		FDF855BB2B8464FE00A7A66F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF855BA2B8464FE00A7A66F /* AppDelegate.swift */; };
 		FDF855BD2B8464FE00A7A66F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF855BC2B8464FE00A7A66F /* SceneDelegate.swift */; };
 		FDF855BF2B8464FE00A7A66F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF855BE2B8464FE00A7A66F /* ViewController.swift */; };
-		FDF855C22B8464FE00A7A66F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF855C02B8464FE00A7A66F /* Main.storyboard */; };
 		FDF855C42B8464FF00A7A66F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDF855C32B8464FF00A7A66F /* Assets.xcassets */; };
 		FDF855C72B8464FF00A7A66F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF855C52B8464FF00A7A66F /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		59F1113171616BFCEB3373C3 /* Pods_technosparkTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_technosparkTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E31750422FEEDCD7040E623 /* Pods-technosparkTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-technosparkTest.debug.xcconfig"; path = "Target Support Files/Pods-technosparkTest/Pods-technosparkTest.debug.xcconfig"; sourceTree = "<group>"; };
+		EF6CFD3B3035E7971005133A /* Pods-technosparkTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-technosparkTest.release.xcconfig"; path = "Target Support Files/Pods-technosparkTest/Pods-technosparkTest.release.xcconfig"; sourceTree = "<group>"; };
+		FD3AF0232B8A09B200A196D6 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		FD3AF0252B8A09C700A196D6 /* CSVService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVService.swift; sourceTree = "<group>"; };
 		FDF855B72B8464FE00A7A66F /* technosparkTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = technosparkTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDF855BA2B8464FE00A7A66F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDF855BC2B8464FE00A7A66F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FDF855BE2B8464FE00A7A66F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FDF855C12B8464FE00A7A66F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FDF855C32B8464FF00A7A66F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDF855C62B8464FF00A7A66F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDF855C82B8464FF00A7A66F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -31,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F14251AF98D04F5E5F0EA0FB /* Pods_technosparkTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1EF4D1E7A414D94FC49788B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59F1113171616BFCEB3373C3 /* Pods_technosparkTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60203E9360BE2CCEB655F04B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E31750422FEEDCD7040E623 /* Pods-technosparkTest.debug.xcconfig */,
+				EF6CFD3B3035E7971005133A /* Pods-technosparkTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FDF855AE2B8464FE00A7A66F = {
 			isa = PBXGroup;
 			children = (
 				FDF855B92B8464FE00A7A66F /* technosparkTest */,
 				FDF855B82B8464FE00A7A66F /* Products */,
+				60203E9360BE2CCEB655F04B /* Pods */,
+				1EF4D1E7A414D94FC49788B0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,7 +85,8 @@
 				FDF855BA2B8464FE00A7A66F /* AppDelegate.swift */,
 				FDF855BC2B8464FE00A7A66F /* SceneDelegate.swift */,
 				FDF855BE2B8464FE00A7A66F /* ViewController.swift */,
-				FDF855C02B8464FE00A7A66F /* Main.storyboard */,
+				FD3AF0252B8A09C700A196D6 /* CSVService.swift */,
+				FD3AF0232B8A09B200A196D6 /* Presenter.swift */,
 				FDF855C32B8464FF00A7A66F /* Assets.xcassets */,
 				FDF855C52B8464FF00A7A66F /* LaunchScreen.storyboard */,
 				FDF855C82B8464FF00A7A66F /* Info.plist */,
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FDF855CB2B8464FF00A7A66F /* Build configuration list for PBXNativeTarget "technosparkTest" */;
 			buildPhases = (
+				D06823AD97844221DBAA7E99 /* [CP] Check Pods Manifest.lock */,
 				FDF855B32B8464FE00A7A66F /* Sources */,
 				FDF855B42B8464FE00A7A66F /* Frameworks */,
 				FDF855B52B8464FE00A7A66F /* Resources */,
+				E278FA51B6FC206034EF59AF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,11 +156,52 @@
 			files = (
 				FDF855C72B8464FF00A7A66F /* LaunchScreen.storyboard in Resources */,
 				FDF855C42B8464FF00A7A66F /* Assets.xcassets in Resources */,
-				FDF855C22B8464FE00A7A66F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D06823AD97844221DBAA7E99 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-technosparkTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E278FA51B6FC206034EF59AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-technosparkTest/Pods-technosparkTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-technosparkTest/Pods-technosparkTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-technosparkTest/Pods-technosparkTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FDF855B32B8464FE00A7A66F /* Sources */ = {
@@ -139,7 +209,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDF855BF2B8464FE00A7A66F /* ViewController.swift in Sources */,
+				FD3AF0262B8A09C700A196D6 /* CSVService.swift in Sources */,
 				FDF855BB2B8464FE00A7A66F /* AppDelegate.swift in Sources */,
+				FD3AF0242B8A09B200A196D6 /* Presenter.swift in Sources */,
 				FDF855BD2B8464FE00A7A66F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +219,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FDF855C02B8464FE00A7A66F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FDF855C12B8464FE00A7A66F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FDF855C52B8464FF00A7A66F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +346,7 @@
 		};
 		FDF855CC2B8464FF00A7A66F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E31750422FEEDCD7040E623 /* Pods-technosparkTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -291,7 +356,6 @@
 				INFOPLIST_FILE = technosparkTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -309,6 +373,7 @@
 		};
 		FDF855CD2B8464FF00A7A66F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF6CFD3B3035E7971005133A /* Pods-technosparkTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -318,7 +383,6 @@
 				INFOPLIST_FILE = technosparkTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
